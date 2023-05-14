@@ -60,9 +60,10 @@ const Sidebar = () => {
                     <div className="bottom-section">
                         <hr/>
                         <div className="account">
-                            <circle style={{width: sideBarShow ? '35px' : '20px', height: sideBarShow ? '35px' : '20px' }} className="avatar">
+
+                            <div style={{width: sideBarShow ? '35px' : '20px', height: sideBarShow ? '35px' : '20px' }} className="avatar">
                                 <img src={img}/>
-                            </circle>
+                            </div>
                             <div className="account-name" style={{display: sideBarShow ? "block" : "none"}}>Максим</div>
                             <Dropdown sideBarShow={sideBarShow}/>
                         </div>
