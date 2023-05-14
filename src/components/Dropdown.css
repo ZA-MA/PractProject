@@ -1,0 +1,43 @@
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+.trigger{
+    cursor: pointer;
+    transition: 200ms;
+}
+.container{
+    top: -120px;
+
+    position:absolute;
+    min-width: 150px;
+
+    background-color: #212529;
+    border: 2px solid #818486;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.items{
+    list-style-type: none;
+
+    padding: 0;
+    margin: 5px 0;
+}
+
+.item{
+    margin: 0;
+    padding: 5px 0;
+    list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+}
+.item:hover{
+    background-color: #2b3035;
+}
+.item-hr hr{
+    border-color: #818486;
+    width: 100%;
+    margin: 5px 0;
+}
+

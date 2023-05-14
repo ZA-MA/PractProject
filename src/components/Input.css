@@ -1,0 +1,29 @@
+.input{
+    height: calc(1.8rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8a8c83;
+    background-color: #212529;
+    background-clip: padding-box;
+    border: 1px solid #8a8c83;
+    border-radius: 0.25rem;
+
+}
+.input:active{
+    border-color: white;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background: #818486 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKUlEQVQYlWNgwAT/sYhhKPiPT+F/LJgEsHv37v+EMGkmkuImoh2NoQAANlcun/q4OoYAAAAASUVORK5CYII=) no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1em;
+    border-left: 1px solid;
+    opacity: .5; /* shows Spin Buttons per default (Chrome >= 39) */
+}

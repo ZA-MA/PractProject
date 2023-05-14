@@ -1,0 +1,40 @@
+.carousel{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.carousel-control-next, .carousel-control-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    /*opacity: .5;*/
+}
+.carousel-control-prev-icon {
+    color: #818486;
+    width: 3em;
+    height: 3em;
+}
+.carousel-control-prev-icon:hover {
+    color: #2b3035;
+    width: 3.2em;
+    height: 3.2em;
+    transition: 200ms;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    width: 100%;
+}
+.carousel-item-active{
+    display: block;
+    /*transform: translateX(100%);*/
+}
+
+
